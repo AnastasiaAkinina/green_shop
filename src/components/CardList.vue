@@ -3,7 +3,6 @@ import { ref } from "vue";
 import Card from "./Card.vue";
 
 const emit = defineEmits(["onClickAdd", "addToFavorite", "onClickPage"]);
-// const { onClickHandler } = inject("cart");
 
 defineProps({
   items: Array,

@@ -1,6 +1,7 @@
 <script setup>
-import { ref } from "vue";
-const emit = defineEmits(["openDrawer", "onChangeSearchInput"]);
+import { ref, inject } from "vue";
+
+const emit = defineEmits(["openDrawer"]);
 const showInput = ref(false);
 
 defineProps({
@@ -21,12 +22,6 @@ defineProps({
       <li class="ml-8"><img src="/heart-black.png" alt="/heart" /></li>
       <li class="ml-8 relative">
         <img @click="showInput = !showInput" src="/search-black.png" alt="/search" />
-        <input
-          v-show="showInput"
-          @input="(event) => emit('onChangeSearchInput', event)"
-          class="border absolute top-6 -left-8 shadow-lg"
-          type="text"
-        />
       </li>
       <li class="ml-8 relative">
         <img
