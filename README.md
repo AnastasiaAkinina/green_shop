@@ -1,35 +1,18 @@
-# green_Shop
+ОПИСАНИЕ ПРОЕКТА
 
-This template should help get you started developing with Vue 3 in Vite.
+- Частично сверстала макет страницы сравнения товаров, в соответствии с [дизайн-макетом](<https://www.figma.com/design/T9fNIlcua3pIuuZuBoQPOQ/%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F-(Copy)?node-id=2-2&t=Vwhtg6LGuEVyxAN5-0>)
+- Использование библиотеки Tailwind
+- Разработка поиска и фильтрации товаров
+- Использование сервиса MOKKY.DEV для хранения данных
+- Разработка закладок и функционала корзины
+- Использование библиотеки AutoAnimate
+- Подключение vue-router
 
-## Recommended IDE Setup
+ИНСТРУКЦИЯ ПО ЗАПУСКУ ПРОЕКТА
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+-- Установить проект к себе на компьютер
+git clone https://github.com/AnastasiaAkinina/green_shop.git
 
-## Customize configuration
+-- Запустить проект на сервере
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
